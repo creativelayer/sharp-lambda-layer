@@ -1,1 +1,4 @@
 samconfig.toml
+.aws-sam
+node_modules
+packaged.yaml

@@ -9,7 +9,7 @@ Resources:
   SharedLayer:
     Type: AWS::Serverless::LayerVersion
     Properties:
-      LayerName: sharp-lambda-layer
+      LayerName: sharp
       Description: A lambda layer containing the Sharp library for nodejs
       ContentUri: src/
       CompatibleRuntimes:
@@ -30,4 +30,5 @@ Metadata:
     LicenseUrl: LICENSE.md
     ReadmeUrl: README.md
     Labels: ['layer', 'image', 'lambda', 'sharp']
-    SemanticVersion: 0.0.1
+    SemanticVersion: 0.0.4
+    SourceCodeUrl: https://github.com/creativelayer/sharp-lambda-layer
