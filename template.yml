@@ -3,7 +3,7 @@ Transform: AWS::Serverless-2016-10-31
 Description: >
   Sharp Lambda Layer
 
-  A lambda layer containing the Sharp library for nodejs
+  A lambda layer containing the sharp library for nodejs
 
 Resources:
   SharedLayer:
@@ -17,7 +17,8 @@ Resources:
         - nodejs14.x
 
 Outputs:
-  LayerArn:
+  LayerVersion:
+    Description: Layer ARN Reference
     Value: !Ref SharedLayer
 
 Metadata:
@@ -30,5 +31,5 @@ Metadata:
     LicenseUrl: LICENSE.md
     ReadmeUrl: README.md
     Labels: ['layer', 'image', 'lambda', 'sharp']
-    SemanticVersion: 0.0.4
+    SemanticVersion: 0.28.3
     SourceCodeUrl: https://github.com/creativelayer/sharp-lambda-layer
