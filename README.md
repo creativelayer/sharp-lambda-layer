@@ -5,7 +5,7 @@ The motivation for this layer is two-fold:
 1. You need to bundle the x86 binaries for libvips with *sharp* when installing it, this is difficult on MacOS when using SAM.
 2. The library size is big enough to make the function not editable in the Lambda console.
 
-To use this layer in a Node.js lambda function, simply add this layer to your stack, for instance in a SAM template. The published version of this layer will track the version of *sharp* that is available, starting with 0.28.3.
+To use this layer in a Node.js lambda function, simply add this layer to your stack, for instance in a SAM template. The published version of this layer will track the version of *sharp* that is available, starting with 0.31.1.
 
 ```
 Resources:
@@ -15,7 +15,7 @@ Resources:
     Properties:
       Location:
         ApplicationId: arn:aws:serverlessrepo:us-east-1:987481058235:applications/nodejs-sharp-lambda-layer
-        SemanticVersion: 0.28.3
+        SemanticVersion: 0.31.1
 
   SomeNodejsFunction:
     Type:
