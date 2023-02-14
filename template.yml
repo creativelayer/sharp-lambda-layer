@@ -15,6 +15,7 @@ Resources:
       CompatibleRuntimes:
         - nodejs12.x
         - nodejs14.x
+        - nodejs16.x
 
 Outputs:
   LayerVersion:
@@ -31,5 +32,5 @@ Metadata:
     LicenseUrl: LICENSE.md
     ReadmeUrl: README.md
     Labels: ['layer', 'image', 'lambda', 'sharp']
-    SemanticVersion: 0.28.3
+    SemanticVersion: 0.31.1
     SourceCodeUrl: https://github.com/creativelayer/sharp-lambda-layer
