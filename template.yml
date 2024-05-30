@@ -16,7 +16,8 @@ Resources:
         - nodejs12.x
         - nodejs14.x
         - nodejs16.x
-
+        - nodejs18.x
+        
 Outputs:
   LayerVersion:
     Description: Layer ARN Reference
@@ -32,5 +33,5 @@ Metadata:
     LicenseUrl: LICENSE.md
     ReadmeUrl: README.md
     Labels: ['layer', 'image', 'lambda', 'sharp']
-    SemanticVersion: 0.31.1
+    SemanticVersion: 0.33.4
     SourceCodeUrl: https://github.com/creativelayer/sharp-lambda-layer
