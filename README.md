@@ -15,7 +15,7 @@ Resources:
     Properties:
       Location:
         ApplicationId: arn:aws:serverlessrepo:us-east-1:987481058235:applications/nodejs-sharp-lambda-layer
-        SemanticVersion: 0.31.1
+        SemanticVersion: 0.34.1
 
   SomeNodejsFunction:
     Type:

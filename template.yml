@@ -13,11 +13,9 @@ Resources:
       Description: A lambda layer containing the Sharp library for nodejs
       ContentUri: src/
       CompatibleRuntimes:
-        - nodejs12.x
-        - nodejs14.x
-        - nodejs16.x
         - nodejs18.x
-        
+        - nodejs20.x
+        - nodejs22.x
 Outputs:
   LayerVersion:
     Description: Layer ARN Reference
@@ -33,5 +31,5 @@ Metadata:
     LicenseUrl: LICENSE.md
     ReadmeUrl: README.md
     Labels: ['layer', 'image', 'lambda', 'sharp']
-    SemanticVersion: 0.33.4
+    SemanticVersion: 0.34.1
     SourceCodeUrl: https://github.com/creativelayer/sharp-lambda-layer
